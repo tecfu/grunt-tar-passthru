@@ -1,7 +1,7 @@
 {
   "name": "grunt-tar-passthru",
   "description": "Pass-through interface for linux tar commands in Grunt.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/tecfu/grunt-tar-passthru",
   "author": {
     "name": "tecfu",
@@ -21,7 +21,7 @@
     }
   ],
   "engines": {
-    "node": "0.10.0"
+    "node": "0.8.0"
   },
   "scripts": {
     "test": "grunt test"
