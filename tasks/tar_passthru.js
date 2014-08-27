@@ -20,7 +20,7 @@ module.exports = function(grunt) {
     var done = this.async()
 
     //Configuration options
-    ,config = grunt.config.get().simply_tar
+    ,config = grunt.config.get().tar_passthru
 
     //Number of jobs
     ,job_count = config.jobs.length
@@ -60,7 +60,7 @@ module.exports = function(grunt) {
             }
         }
 
-        grunt.log.writeln('simply_tar: tar ' + options.join(" "));
+        grunt.log.writeln('tar_passthru: tar ' + options.join(" "));
 
         (function(a,options){
 
