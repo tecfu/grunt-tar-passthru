@@ -1,6 +1,6 @@
 # grunt-tar-passthru
 
-> Pass-through interface for linux tar commands in Grunt.
+> Pass-through interface for tar commands in Grunt.
 >
 > Requires tar already installed and accessible from terminal.
 
