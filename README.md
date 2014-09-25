@@ -1,8 +1,10 @@
 # grunt-tar-passthru
 
-> Pass-through interface for tar commands in Grunt.
->
-> Requires tar already installed and accessible from terminal.
+- Pass-through interface for tar commands in Grunt.
+- Requires tar already installed and accessible from terminal.
+- Syntactically similar to entering a tar command in the terminal. Each
+array value in a job essentially represents a single command line parameter.
+- You can do anything with this that you can do with tar.
 
 ## Getting Started
 This plugin requires Grunt `~0.4.5`
@@ -67,6 +69,8 @@ grunt.initConfig({
 
     ,jobs : [
 
+//this example translates to: 
+//tar -zcvf /path/to/archive.01.01.2001.1234.tar.gz -P /path/to/somedir --directory=/path/to/somedir --exclude=someotherdirname
         [
             //z:gzip, c:create archive, v:verbose, 
             //f:next argument is name of archive file 
