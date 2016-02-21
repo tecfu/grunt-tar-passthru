@@ -33,14 +33,14 @@
     "grunt": "~0.4.5"
   },
   "peerDependencies": {
-    "grunt": "~0.4.5"
+    "grunt": ">=0.4.0"
   },
   "keywords": [
-    "gruntplugin"
-    ,"tar"
-    ,"js tar"
-    ,"grunt tar"
-    ,"gulp tar"
-    ,"grunt tar interface"
+    "gruntplugin",
+    "tar",
+    "js tar",
+    "grunt tar",
+    "gulp tar",
+    "grunt tar interface"
   ]
 }
